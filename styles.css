@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    background: purple;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    width: 800px;
+    height: 800px;
+}
