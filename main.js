@@ -25,7 +25,8 @@ const allBoxes = document.querySelectorAll(".box-class");
 
 allBoxes.forEach((eachBox) => {
   eachBox.addEventListener("mouseover", () => {
-    eachBox.style.background = "purple";
+    eachBox.style.background = `rgb(${Math.ceil(Math.random() * 255)}, ${Math.ceil(Math.random()
+         * 255)}, ${Math.ceil(Math.random() * 255)})`;
   });
 });
 
