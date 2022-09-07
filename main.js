@@ -1,4 +1,7 @@
-let pixels = prompt("Pixels per side");
+let pixels = prompt("Pixels per side (must be less than 100)");
+if (pixels > 100) {
+    window.location.reload();
+}
 let numOfDivs = pixels * pixels;
 
 const body = document.querySelector("body");
